@@ -1,8 +1,8 @@
 import sys
 
-arg = sys.argv
-length = len(arg)
-i = 1
+arg: list[str] = sys.argv
+length: int = len(arg)
+i: int = 1
 
 print("=== Command Quest ===")
 print(f"Program name: {arg[0]}")

@@ -1,8 +1,8 @@
 import sys
 
-arg = sys.argv[1:]
-length = len(arg)
-error_msg = (
+arg: list[str] = sys.argv[1:]
+length: int = len(arg)
+error_msg: str = (
     f"No scores provided. Usage: python3 {sys.argv[0]} "
     "<score1> <score2> ..."
 )
